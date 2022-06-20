@@ -24,8 +24,6 @@
   --logo-black: #000000;
 }
 
-
-
 /* font-family: 'Raleway',
 sans-serif;
 
@@ -34,6 +32,8 @@ sans-serif; */
 
 body {
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
   /* font-style: normal; */
   /* font-weight: 400; */
   color: var(--primary-text-color);
@@ -51,7 +51,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;  
 }
 .logo-black {
   color: var(--logo-black);
@@ -72,7 +71,6 @@ a {
 
 .nav-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   
@@ -92,7 +90,6 @@ a {
 
 .contacts-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -135,14 +132,11 @@ a {
 .feature-title {
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .feature-text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
 }
@@ -153,14 +147,12 @@ a {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 /* наша команда */
 
 .team {
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 
   background-color: var(--alternative-background);
 }
@@ -181,9 +173,7 @@ footer {
 }
 
 .address {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   font-style: normal;
 
   color: var(--primary-white-color);
@@ -195,7 +185,6 @@ footer {
 .address-link:focus {
   color: var(--accent-colour);
 }
-
 
 /* portfolio */
 /* Фільтр */
@@ -213,11 +202,10 @@ footer {
   cursor: pointer;
   font-family: inherit;
   font-style: inherit;
-  
-
 }
 .button-filter:hover,
 .button-filter:focus {
+  color: var(--main-background);
   background-color: var(--accent-colour);
 }
 
@@ -230,6 +218,5 @@ footer {
 .project-list {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
